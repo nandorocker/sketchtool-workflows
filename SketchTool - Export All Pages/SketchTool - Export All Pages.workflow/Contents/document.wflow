@@ -64,15 +64,13 @@
 				<key>Class Name</key>
 				<string>AMGetSelectedFinderItemsAction</string>
 				<key>IgnoresInput</key>
-				<false/>
+				<true/>
 				<key>InputUUID</key>
 				<string>559A3EAA-3851-40C9-8FA0-89C667994EDB</string>
 				<key>Keywords</key>
 				<array/>
 				<key>OutputUUID</key>
 				<string>BE71A5A7-4F3E-4D54-A281-AD8773B1F943</string>
-				<key>StartAction</key>
-				<false/>
 				<key>UUID</key>
 				<string>DE95F890-FE53-42CD-9406-6258F900AB9C</string>
 				<key>UnlocalizedApplications</key>
@@ -81,8 +79,6 @@
 				</array>
 				<key>arguments</key>
 				<dict/>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -142,7 +138,7 @@
 				<key>CFBundleVersion</key>
 				<string>1.0.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
-				<false/>
+				<true/>
 				<key>CanShowWhenRun</key>
 				<true/>
 				<key>Category</key>
@@ -185,12 +181,10 @@
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>468.500000:294.000000</string>
+				<string>468.500000:242.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -238,7 +232,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>on run	set formatList to {"pdf", "png", "svg"}	set exportFormats to (choose from list formatList with prompt "Please choose export format:" without multiple selections allowed and empty selection allowed)	return the result as stringend run</string>
+					<string>on run	set formatList to {"pdf", "png", "svg"}	set exportFormats to (choose from list formatList with prompt "Please choose export format:" without multiple selections allowed and empty selection allowed)		if exportFormats is false then		tell me to quit	else		return the result as string	end ifend run</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunScript</string>
@@ -289,12 +283,10 @@ end run</string>
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>468.500000:592.000000</string>
+				<string>468.500000:488.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -401,12 +393,10 @@ end run</string>
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>468.500000:698.000000</string>
+				<string>468.500000:594.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -506,8 +496,6 @@ end run</string>
 				</array>
 				<key>OutputUUID</key>
 				<string>84E63FA8-7585-49FA-AAC1-C02457CF2F2F</string>
-				<key>StartAction</key>
-				<false/>
 				<key>UUID</key>
 				<string>8F1E9791-B9C8-46E4-B595-EC34C80AB2E3</string>
 				<key>UnlocalizedApplications</key>
@@ -569,12 +557,10 @@ end run</string>
 						<string>3</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>468.500000:854.000000</string>
+				<string>468.500000:750.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -638,7 +624,7 @@ end run</string>
 				<key>CFBundleVersion</key>
 				<string>1.0.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
-				<false/>
+				<true/>
 				<key>CanShowWhenRun</key>
 				<true/>
 				<key>Category</key>
@@ -681,12 +667,10 @@ end run</string>
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>468.500000:1012.000000</string>
+				<string>468.500000:856.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -727,8 +711,6 @@ end run</string>
 				<dict>
 					<key>Container</key>
 					<string>List</string>
-					<key>Optional</key>
-					<true/>
 					<key>Types</key>
 					<array>
 						<string>*</string>
@@ -793,12 +775,10 @@ end run</string>
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>468.500000:1115.000000</string>
+				<string>468.500000:959.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -839,8 +819,6 @@ end run</string>
 				<dict>
 					<key>Container</key>
 					<string>List</string>
-					<key>Optional</key>
-					<true/>
 					<key>Types</key>
 					<array>
 						<string>*</string>
@@ -883,8 +861,6 @@ end run</string>
 				</array>
 				<key>OutputUUID</key>
 				<string>05F36760-F4C9-46D6-9415-6D48152AFA0E</string>
-				<key>StartAction</key>
-				<false/>
 				<key>UUID</key>
 				<string>DFB69AA2-C5D1-4A36-A450-9B83C12E4AF6</string>
 				<key>UnlocalizedApplications</key>
@@ -907,12 +883,10 @@ end run</string>
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>468.500000:1218.000000</string>
+				<string>468.500000:1062.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -953,11 +927,9 @@ end run</string>
 				<dict>
 					<key>Container</key>
 					<string>List</string>
-					<key>Optional</key>
-					<true/>
 					<key>Types</key>
 					<array>
-						<string>com.apple.cocoa.string</string>
+						<string>*</string>
 					</array>
 				</dict>
 				<key>AMRequiredResources</key>
@@ -997,8 +969,6 @@ end run</string>
 				</array>
 				<key>OutputUUID</key>
 				<string>827E3F3D-ADC6-4EB6-8E7B-C484EAD34438</string>
-				<key>StartAction</key>
-				<false/>
 				<key>UUID</key>
 				<string>9AF481A2-4830-4D70-BC1A-CB8930EAF794</string>
 				<key>UnlocalizedApplications</key>
@@ -1021,12 +991,10 @@ end run</string>
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>468.500000:1321.000000</string>
+				<string>468.500000:1165.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -1215,7 +1183,7 @@ echo "Format: " $3</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>468.500000:1868.000000</string>
+				<string>468.500000:1348.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -1225,68 +1193,68 @@ echo "Format: " $3</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>26266A36-7892-4633-BA46-FB3A2A0F698A</key>
+		<key>1C76BD08-54EE-44F5-B01E-03ABA3317B5B</key>
+		<dict>
+			<key>from</key>
+			<string>44D9F401-1480-4FF3-A304-176846F628F4 - 44D9F401-1480-4FF3-A304-176846F628F4</string>
+			<key>to</key>
+			<string>8F1E9791-B9C8-46E4-B595-EC34C80AB2E3 - 8F1E9791-B9C8-46E4-B595-EC34C80AB2E3</string>
+		</dict>
+		<key>2BC94A2A-9A73-4B02-BA48-A24DD49EAFFE</key>
+		<dict>
+			<key>from</key>
+			<string>5AD752A5-6A62-4D72-B61D-11455BC351DC - 5AD752A5-6A62-4D72-B61D-11455BC351DC</string>
+			<key>to</key>
+			<string>44D9F401-1480-4FF3-A304-176846F628F4 - 44D9F401-1480-4FF3-A304-176846F628F4</string>
+		</dict>
+		<key>48824D50-1268-4DBF-BE9A-5CDB31CB815A</key>
 		<dict>
 			<key>from</key>
 			<string>8F1E9791-B9C8-46E4-B595-EC34C80AB2E3 - 8F1E9791-B9C8-46E4-B595-EC34C80AB2E3</string>
 			<key>to</key>
 			<string>E48D1AE7-3261-4F5A-A28B-4F9862BA5905 - E48D1AE7-3261-4F5A-A28B-4F9862BA5905</string>
 		</dict>
-		<key>265CC2C5-33E3-40D9-A7C5-B25C9DA47684</key>
-		<dict>
-			<key>from</key>
-			<string>DE95F890-FE53-42CD-9406-6258F900AB9C - DE95F890-FE53-42CD-9406-6258F900AB9C</string>
-			<key>to</key>
-			<string>D2FDEC9B-8837-43FE-807F-068A036E6082 - D2FDEC9B-8837-43FE-807F-068A036E6082</string>
-		</dict>
-		<key>348BDC89-69DD-40C7-B547-2D9559A17719</key>
-		<dict>
-			<key>from</key>
-			<string>DFB69AA2-C5D1-4A36-A450-9B83C12E4AF6 - DFB69AA2-C5D1-4A36-A450-9B83C12E4AF6</string>
-			<key>to</key>
-			<string>9AF481A2-4830-4D70-BC1A-CB8930EAF794 - 9AF481A2-4830-4D70-BC1A-CB8930EAF794</string>
-		</dict>
-		<key>3BDF92F0-E6F9-4550-B5D4-F3A447D677D3</key>
+		<key>717E3AC0-FA6C-4BF8-94E9-32EA4DB137B4</key>
 		<dict>
 			<key>from</key>
 			<string>9AF481A2-4830-4D70-BC1A-CB8930EAF794 - 9AF481A2-4830-4D70-BC1A-CB8930EAF794</string>
 			<key>to</key>
 			<string>9B232DB2-EB16-473E-B0B5-F03D23F39B3C - 9B232DB2-EB16-473E-B0B5-F03D23F39B3C</string>
 		</dict>
-		<key>44057717-3444-4519-ABF6-0DE882D9C6D5</key>
+		<key>756A9266-7BAA-4BD8-9C61-C0B71A091ED6</key>
 		<dict>
 			<key>from</key>
-			<string>D9E97B26-A980-45CB-88FE-9BA3797BCC59 - D9E97B26-A980-45CB-88FE-9BA3797BCC59</string>
+			<string>DE95F890-FE53-42CD-9406-6258F900AB9C - DE95F890-FE53-42CD-9406-6258F900AB9C</string>
 			<key>to</key>
-			<string>DFB69AA2-C5D1-4A36-A450-9B83C12E4AF6 - DFB69AA2-C5D1-4A36-A450-9B83C12E4AF6</string>
+			<string>D2FDEC9B-8837-43FE-807F-068A036E6082 - D2FDEC9B-8837-43FE-807F-068A036E6082</string>
 		</dict>
-		<key>5975FCC8-5F82-4C52-9C85-BA004199CDAC</key>
-		<dict>
-			<key>from</key>
-			<string>44D9F401-1480-4FF3-A304-176846F628F4 - 44D9F401-1480-4FF3-A304-176846F628F4</string>
-			<key>to</key>
-			<string>8F1E9791-B9C8-46E4-B595-EC34C80AB2E3 - 8F1E9791-B9C8-46E4-B595-EC34C80AB2E3</string>
-		</dict>
-		<key>78D7BB72-09FE-4A65-8525-F69F04138005</key>
+		<key>7D49EE93-F995-4729-A7C9-9FB26E6C04D9</key>
 		<dict>
 			<key>from</key>
 			<string>E48D1AE7-3261-4F5A-A28B-4F9862BA5905 - E48D1AE7-3261-4F5A-A28B-4F9862BA5905</string>
 			<key>to</key>
 			<string>D9E97B26-A980-45CB-88FE-9BA3797BCC59 - D9E97B26-A980-45CB-88FE-9BA3797BCC59</string>
 		</dict>
-		<key>B4FD6C81-283A-4798-99C7-233F3E1514C3</key>
+		<key>841D0FB3-0B18-4AC8-B530-9E01B77EDD30</key>
+		<dict>
+			<key>from</key>
+			<string>D9E97B26-A980-45CB-88FE-9BA3797BCC59 - D9E97B26-A980-45CB-88FE-9BA3797BCC59</string>
+			<key>to</key>
+			<string>DFB69AA2-C5D1-4A36-A450-9B83C12E4AF6 - DFB69AA2-C5D1-4A36-A450-9B83C12E4AF6</string>
+		</dict>
+		<key>9FA291C7-E6E1-4F30-97C4-37A94EBFFF50</key>
 		<dict>
 			<key>from</key>
 			<string>D2FDEC9B-8837-43FE-807F-068A036E6082 - D2FDEC9B-8837-43FE-807F-068A036E6082</string>
 			<key>to</key>
 			<string>5AD752A5-6A62-4D72-B61D-11455BC351DC - 5AD752A5-6A62-4D72-B61D-11455BC351DC</string>
 		</dict>
-		<key>BA92BB81-B57C-4447-A0E1-43878700A681</key>
+		<key>A7708494-2CF5-4447-8950-21244C883213</key>
 		<dict>
 			<key>from</key>
-			<string>5AD752A5-6A62-4D72-B61D-11455BC351DC - 5AD752A5-6A62-4D72-B61D-11455BC351DC</string>
+			<string>DFB69AA2-C5D1-4A36-A450-9B83C12E4AF6 - DFB69AA2-C5D1-4A36-A450-9B83C12E4AF6</string>
 			<key>to</key>
-			<string>44D9F401-1480-4FF3-A304-176846F628F4 - 44D9F401-1480-4FF3-A304-176846F628F4</string>
+			<string>9AF481A2-4830-4D70-BC1A-CB8930EAF794 - 9AF481A2-4830-4D70-BC1A-CB8930EAF794</string>
 		</dict>
 	</dict>
 	<key>variables</key>
@@ -1299,7 +1267,7 @@ echo "Format: " $3</string>
 			<key>name</key>
 			<string>SketchFilePath</string>
 			<key>value</key>
-			<string>/Users/nandorocker/Dropbox (Personal)/Projects/gedenkstätte bautzen/Creative/Design/Bautzen QR Code Site.sketch</string>
+			<string>/Users/nandorocker/Dropbox (Personal)/Projects/Gedenkstätte Bautzen/Creative/Design/Bautzen QR Code Site.sketch</string>
 		</dict>
 		<dict>
 			<key>UUID</key>
@@ -1309,7 +1277,7 @@ echo "Format: " $3</string>
 			<key>name</key>
 			<string>FileFormat</string>
 			<key>value</key>
-			<string>png</string>
+			<string>pdf</string>
 		</dict>
 		<dict>
 			<key>UUID</key>
@@ -1319,7 +1287,7 @@ echo "Format: " $3</string>
 			<key>name</key>
 			<string>ExportPath</string>
 			<key>value</key>
-			<string>/Users/nandorocker/Desktop/test</string>
+			<string>/Users/nandorocker/Desktop/Test</string>
 		</dict>
 	</array>
 	<key>workflowMetaData</key>
